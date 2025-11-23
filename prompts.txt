@@ -1,0 +1,43 @@
+#Contesto : 
+Sto partendo da 0 per la realizzazione di un progetto relativo alla visualizzazione in tempo reale di statistiche e dati relativi alla F1, al fine di realizzare un software di visualizzazione in grado di migliorare l'esperienza di un utente che sta guardando qualifiche e/o gara della formula 1.
+
+Per far ciò vorrei strutturare un progetto in :
+• Vite + Vue js per l'interfaccia grafica + tailwind 
+• typescript / rust o python per il backend.In realtà va bene qualsiasi linguaggio e la scelta dovrebbe esser fatta in modo relativo all'uso di fast API della formula 1
+
+L'obiettovo è quello di : 
+1) trovare e controllare se esistano API gratuite e senza limiti per stream di dati in tempo reale relativi alla formula 1
+2) creare un backend in grado di ottenere mediante stream questi dati ed organizzarli in tempo reale per la creazione di statistiche ed altro 
+3) rapportare backend a frontend in modo che sul frontend vengano visualizzate le statistiche 
+
+L'idea è quella di avere 2 modalità distinte : gara e qualifica, ognuna con la propria pagina all'interno del software.
+
+Requisiti Qualifica : 
+• visualizzare status : Q1, Q2 o Q3 e/o relativo tempo ad inizio / fine della fase attuale 
+• visualizzare tempi nei settori per ogni pilota mediante una griglia o qualcosa del genere che si aggiorna in tempo reale mostrando anche tempi nei settori in fucsia / verde / arancione in base al miglior tempo corrente 
+• ovviamente lista a lato con attuale posizionamento di tutti 
+• info generali su pista, miglior tempo etc 
+
+Requisiti gara : 
+• ovviamente lista a lato con attuale posizionamento di tutti 
+• info generali su pista, miglior tempo etc 
+• quantità pit stop per ogni pilota effettuati 
+• tipo di gomma che ha ogni pilota 
+• status della corsa, sarebbe incredibile riuscire ad avere la mappa del tracciato ed i puntini per ogni pilota con la relativa posizione 
+• percentuali di vittoria per ogni pilota 
+• condizioni atmosferiche del tracciato 
+
+
+#Task 
+Implementa il software partendo da 0, andando a : 
+0) creare un piano di azione per il lavoro
+1) fare una ricerca online per le API necessarie alla stream di dati, sono fondamentali per il resto del progetto 
+2) creare il backend 
+3) creare il frontend 
+
+#Role : 
+Lavora come fossi un team intero di sviluppatori frontend e backend con incredibili capacità di gestione e realizzazione del lavoro.
+Il livello di bravura del team è davvero incredibile ed il team ha esperienza in questo campo.
+
+#Constraints : 
+L'interfaccia deve essere semplice ed elengante, usa Nero e rosso come colori principali (nero principale, rosso secondario) ed eventualmente genera loghi o quan'altro di necessario ispirandoti alla formula 1

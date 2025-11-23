@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  --color-f1-red: #e10600;
+  --color-f1-black: #15151e;
+  --color-f1-dark: #1f1f27;
+  --color-f1-gray: #38383f;
+  --color-f1-light: #f3f3f3;
+  --color-f1-green: #4caf50;
+  --color-f1-orange: #ff9800;
+  --color-f1-purple: #e040fb;
+
+  --font-sans: Inter, system-ui, sans-serif;
+}
+
+body {
+  @apply bg-f1-black text-white font-sans antialiased h-screen w-screen overflow-hidden;
+}
+
+#app {
+  @apply h-full w-full flex flex-col;
+}
